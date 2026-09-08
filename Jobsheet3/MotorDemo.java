@@ -33,5 +33,6 @@ public class MotorDemo {
             motor3.kecepatan = kecepatanBaru3;
         }
         motor3.displayStatus();
+        
     }
 }

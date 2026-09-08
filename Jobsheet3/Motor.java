@@ -14,5 +14,6 @@ public class Motor {
         }
         System.out.println("Kecepatan: " + this.kecepatan);
         System.out.println("=====");
+        
     }
 }
