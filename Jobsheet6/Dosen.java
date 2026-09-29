@@ -6,12 +6,17 @@ public class Dosen extends Pegawai {
     public Dosen(){ 
         System.out.println("Objek dari class Dosen dibuat");
     }
+    public Dosen(String nip, String nama, double gaji, String nidn){
+        System.out.println("Objek dari class dosen dibuat");
+    }
+
+    public String getInfo(){
+        return "NIDM        : " + this.nidm + "\n";
+    }
+
     public String getAllInfo(){
-        String info = "";
-        info += "NIP         : " + super.nip + "\n";
-        info += "nama        : " + super.nama + "\n";
-        info += "Gaji        : " + super.gaji + "\n";
-        info += "NIDM        : " + this.nidm + "\n";
+        String info = super.getInfo();
+        info += this.getInfo();
 
         return info; 
     }
