@@ -9,7 +9,7 @@ public class InheritanceDemo {
         dosen1.gaji = 30000000;
         dosen1.nidm = "189432439";
         
-        System.out.println(dosen1.getInfo());;
+        System.out.println(dosen1.getAllInfo());;
 
     }
 }
