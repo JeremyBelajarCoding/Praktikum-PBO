@@ -2,7 +2,7 @@ package Jobsheet7.Theory;
 
 public class Granpa {
     protected String nama;
-    protected String marga;
+    protected final String marga;
     protected String alamat;
 
     public Granpa() {
